@@ -3,11 +3,13 @@ An application that automatically marks attendance on Excel spreadsheets by pars
 
 (This version is developed considering how lectures operate in MIT WPU.)
 
-### To run the application on your system, Download the Released executable and install the setup.
+Download and run source code if you've python already.
+Else,
+## To run the application on any system, Download the Released executable and install the setup.
 Install on desired path, do not change the folder structure.
 Run interface.exe
 
-#### Input:
+### Input:
 Chat file (text), Classlist spread sheet (excel)
 
 The excel file must use the following table structure:
@@ -19,7 +21,22 @@ The excel file must use the following table structure:
 |      |        |              |              |
 |      |        |              |              |
 
-#### Output:
+### Output:
 A new column will be appended on to existing table on every run. It corresponds to new lecture of the same class.
+The total number of candidates present in a lecture is appended in the last row.
 
-#### GUI:
+### GUI:
+![home](https://github.com/Priya-SB/Attendance-Marker-App/blob/master/GUI/Screenshot%20(207).png)
+------
+##### Info Messages
+
+![chatdone](https://github.com/Priya-SB/Attendance-Marker-App/blob/master/GUI/Screenshot%20(211).png)
+![classdone](https://github.com/Priya-SB/Attendance-Marker-App/blob/master/GUI/Screenshot%20(210).png)
+![done](https://github.com/Priya-SB/Attendance-Marker-App/blob/master/GUI/Screenshot%20(213).png)
+------
+##### Error Messages
+
+![err1](https://github.com/Priya-SB/Attendance-Marker-App/blob/master/GUI/Screenshot%20(208).png)
+![err2](https://github.com/Priya-SB/Attendance-Marker-App/blob/master/GUI/Screenshot%20(209).png)
+![err3](https://github.com/Priya-SB/Attendance-Marker-App/blob/master/GUI/Screenshot%20(212).png)
+------
